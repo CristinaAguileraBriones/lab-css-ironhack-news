@@ -224,7 +224,38 @@ header {
   
   }
 
+}
 
+@media (width > 760px) and (width < 1024px){
 
+  header nav {
+
+    display: flex;
+    width: 100%;
+    
+  }
+  nav .navbar {
+    
+    width: 100%;
+    justify-content: center;
+
+  }
+  nav .navbar li{
+    width:100%;
+  }
+
+  .articles-container{
+    
+    flex-wrap:wrap;
+    gap: 30px;
+   
+  }
+
+  .articles-container .article{
+    
+    width:45%;
+    
+  
+  }
 
 }
